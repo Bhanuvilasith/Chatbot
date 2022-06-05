@@ -35,15 +35,8 @@ def hello():
                ''')
 
 
-def good(): print(f'Thank you {name} , have a nice day and bot 0112 will be alway be in your service :)')
-
-
-def bad(): print(
-    f'oo,sorry for this I will try my best next time :( {name}, have a nice day and bot 0112 will be alway be in your service :)')
-
-
 def helpA():
-    help_req = input('Do you want to chosee and item ')
+    help_req = input('Do you want to chosee any item ')
     if (help_req == 'yes') or (help_req == 'Yes') or (help_req == 'YES') or (help_req == 's') or (help_req == 'y'):
         print('Wait page is loading')
         helpB()
